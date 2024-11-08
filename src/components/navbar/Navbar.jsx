@@ -1,10 +1,10 @@
 import "./navbar.css";
-import logo from "../assets/logo.png";
+// import logo from "../../assets/logo.png";
 
 export default function Navbar() {
   return (
     <div className="navbar">
-      {/* <img src={logo} alt="" className="logo" /> */}
+     <h1 className="logo">Dsibelle</h1>
       <ul className="navbar-menu">
         <li>Home</li>
         <li>About Me</li>
